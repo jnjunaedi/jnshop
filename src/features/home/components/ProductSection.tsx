@@ -216,7 +216,7 @@ function ProductSection() {
           </div>
         ))}
       </div>
-      <p className="text-center mt-10 border border-blue-600 py-2 px-3 text-blue-600 mx-28 md:mx-56 lg:mx-80">Lihat selengkapnya</p>
+      <p className="text-center mt-10 border border-blue-600 py-2 px-3 text-blue-600 mx-20 md:mx-56 lg:mx-80">Lihat selengkapnya</p>
     </div>
   );
 }

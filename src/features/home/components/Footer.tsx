@@ -3,12 +3,12 @@ import { Send } from 'lucide-react';
 function Footer() {
   return (
     <footer className="mt-10">
-      <div className="w-full py-3 bg-blue-600 flex justify-between items-center px-2">
-        <div className="flex items-center gap-2">
+      <div className="w-full py-3 bg-blue-600 flex flex-col gap-3 sm:flex-row sm:gap-0 justify-between items-center px-2">
+        <div className="flex  items-center gap-2">
           <span>
             <Send className="text-white" />
           </span>
-          <span className="text-white text-sm">kirim ke email kami</span>
+          <span className="text-white text-xs">Kirim ke Email kami</span>
         </div>
         <div>
           <input type="email" name="" id="" className="me-2 rounded-md py-1.5" />

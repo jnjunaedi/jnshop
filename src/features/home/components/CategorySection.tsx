@@ -57,9 +57,9 @@ function CategorySection() {
       <h1 className="my-3 mx-1 text-lg md:ms-5">Kategori</h1>
       <div className="grid grid-cols-3 justify-center items-center sm:grid-cols-4 lg:grid-cols-5 md:ms-5 gap-4 ">
         {categories.map((c) => (
-          <div key={c.id} className="bg-white p-1 md:mt-5 rounded-md w-28 h-fit md:w-40">
+          <div key={c.id} className="bg-white p-1 md:mt-5 rounded-md w-[85px] h-fit md:w-40">
             <div>
-              <img src={c.image} alt={c.name} className="w-28 h-24 md:w-40 md:h-40 object-cover" />
+              <img src={c.image} alt={c.name} className="w-[85px] h-[85px] md:w-40 md:h-40 object-cover" />
             </div>
             <p className="text-sm text-center mt-1.5">{c.name}</p>
           </div>
